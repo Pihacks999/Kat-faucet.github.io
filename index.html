@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duinocoin Faucet</title>
+</head>
+<body>
+    <h1>Welcome to Duinocoin Faucet</h1>
+    <p>Please enter your username below to claim your rewards:</p>
+    <input type="text" id="username" placeholder="Enter your username">
+    <button onclick="claimReward()">Claim Reward</button>
+
+    <script>
+        function claimReward() {
+            let username = document.getElementById('username').value;
+            // Add your claim reward logic here
+            console.log(`Reward claimed for user: ${username}`);
+        }
+    </script>
+</body>
+</html>
